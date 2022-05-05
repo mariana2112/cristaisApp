@@ -1,0 +1,7 @@
+{
+  "name": "cristaisApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
