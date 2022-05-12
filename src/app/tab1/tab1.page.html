@@ -1,17 +1,46 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Produtos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar showCancelButton="focus" cancelButtonText="Custom Cancel"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://img.elo7.com.br/product/main/2D9FFB0/pedras-dos-chakras-kit-7-cristais-para-harmonizacao-limpeza-dos-chakras.jpg">
+    </ion-thumbnail>
+    <ion-label>Cristais dos 7 chakras</ion-label>
+    <ion-badge color="tertiary">R$30</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://th.bing.com/th/id/OIP.NGUhaMB6pbXxjQqCv6ZI5gHaJ4?w=160&h=213&c=7&r=0&o=5&pid=1.7">
+    </ion-thumbnail>
+    <ion-label>Colar de quartzo Azul</ion-label>
+    <ion-badge color="tertiary">R$25</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://img.elo7.com.br/product/zoom/369D681/colar-prata-925-quartzo-rosa.jpg">
+    </ion-thumbnail>
+    <ion-label>Colar de quartzo Rosa</ion-label>
+    <ion-badge color="tertiary">R$25</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://img.elo7.com.br/product/zoom/25F649F/anel-prata-950-turmalina-negra.jpg">
+    </ion-thumbnail>
+    <ion-label>Anel de Turmalina Negra</ion-label>
+    <ion-badge color="tertiary">R$20</ion-badge>
+  </ion-item>
+
+
+
 </ion-content>
